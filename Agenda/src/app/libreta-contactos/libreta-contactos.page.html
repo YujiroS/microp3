@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Libreta de contactos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+        <ion-item>
+          <ion-label>Alejandro</ion-label>
+          <ion-toggle [(ngModel)]="alejandro"></ion-toggle>
+        </ion-item>
+      
+        <ion-item>
+          <ion-label>David</ion-label>
+          <ion-toggle [(ngModel)]="david" disabled="true"></ion-toggle>
+        </ion-item>
+      
+        <ion-item>
+          <ion-label>Sergio</ion-label>
+          <ion-toggle [(ngModel)]="sergio"></ion-toggle>
+        </ion-item>
+      </ion-list>
+
+</ion-content>
